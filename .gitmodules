@@ -4,3 +4,6 @@
 [submodule "lib/badger-onchain-rewards"]
 	path = lib/badger-onchain-rewards
 	url = https://github.com/GalloDaSballo/badger-onchain-rewards
+[submodule "lib/openzeppelin-contracts"]
+	path = lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
