@@ -1,4 +1,9 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-contract Contract {}
+contract RewardsEndPoint {
+  // All of the base code for any BadgerRewards Endpoint
+  // Effectively a staking contract that holds funds and then sends rewards back to rewards manager allowing claims
+
+  
+}
