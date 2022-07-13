@@ -3,7 +3,7 @@ pragma solidity ^0.8.10;
 
 import "forge-std/Test.sol";
 
-contract ContractTest is Test {
+contract RewardsEndPointTest is Test {
     function setUp() public {}
 
     function testExample() public {
