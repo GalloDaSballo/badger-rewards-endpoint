@@ -9,6 +9,10 @@ interface IRewardsManager {
   function addReward(uint256 epochId, address vault, address token, uint256 amount) external;
 }
 
+/// @author Alex The Entreprenerd for BadgerDAO
+/// @notice https://miro.com/app/board/uXjVOmA0ZE4=/?share_link_id=946373148776
+///   A contract to deposit your bTokens so you can still receive rewards
+///   Using caller incentives to keep the flow going
 contract RewardsEndPoint {
   using SafeERC20 for IERC20;
 
